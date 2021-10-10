@@ -1,16 +1,17 @@
 package Algorithms;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 public class InsertionSort_Part2 {
-    public static void insertionSort2(int n, List<Integer> arr) {
-        for(int i = 0; i<arr.size(); i++){
-            int x = arr.get(i);
-            int tempI = 0;
-            while(x <= arr.get(tempI)){
-                
+    public static void insertionSort(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
             }
+            arr[j + 1] = key;
         }
     }
-
 }
