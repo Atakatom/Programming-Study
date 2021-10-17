@@ -1,5 +1,6 @@
 package LeetCode;
 
+import java.util.Stack;
 // Example 1:
 
 // Input: head = [1,0,1]
@@ -36,14 +37,19 @@ public class binary_to_int_in_linked_list {
     }
 
     public int getDecimalValue(ListNode head) {
-        int i = 0;
-        int result = 0;
-        while (true) {
-            result += (int) Math.pow(2, i) * head.val;
-            i++;
-            if (head.next == null)
-                return result;
+        Stack<Integer> stack = new Stack<>();
+        while (head.next != null) {
+            stack.push(head.val);
             head = head.next;
         }
+        stack.push(head.val);
+        int result = 0;
+        int i = 1;
+        while (!stack.isEmpty()) {
+            result += stack.pop() * i;
+            i *= 2;
+        }
+        return result;
+
     }
 }
