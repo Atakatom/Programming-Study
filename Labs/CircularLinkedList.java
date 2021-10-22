@@ -1,4 +1,3 @@
-package Labs;
 
 // emreaydogan@akdeniz.edu.tr
 

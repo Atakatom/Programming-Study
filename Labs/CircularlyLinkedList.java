@@ -1,4 +1,3 @@
-package Labs;
 
 public class CircularlyLinkedList<E> {
     private static class Node<E> {

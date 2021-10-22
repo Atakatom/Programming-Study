@@ -1,4 +1,3 @@
-package Labs;
 
 public class CircularArray {
     private int[] circArray;
