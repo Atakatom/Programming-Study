@@ -1,4 +1,3 @@
-package Algorithms;
 
 public class InsertionSort_Part2 {
     public static void insertionSort(int arr[]) {
