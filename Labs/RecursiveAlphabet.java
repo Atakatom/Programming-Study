@@ -1,4 +1,4 @@
-public class main {
+public class RecursiveAlphabet {
     public static void main(String[] args) {
         String line = "";
         line += print('A');
