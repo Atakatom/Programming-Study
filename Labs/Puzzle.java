@@ -3,13 +3,7 @@
 * @schoolNo 20150807041
 */
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Puzzle {
     private static Map<Character, HashMap<Integer, ArrayList<Integer>>> holder = new HashMap<Character, HashMap<Integer, ArrayList<Integer>>>();
@@ -112,7 +106,7 @@ public class Puzzle {
                 while (s[endOfS] > -1) {
                     endOfS++;
                 }
-                s[endOfS] = u[i];// s nin bitisine u dan aldigim degeri atiyorum
+                s[endOfS] = u[i]; // s nin bitisine u dan aldigim degeri atiyorum
                 u[i] = -1;// -1 bosu temsil ediyor
                 if (k == 1) {
                     checkValid(s);
