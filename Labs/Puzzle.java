@@ -59,7 +59,10 @@ public class Puzzle {
                     solution[i] = -1;
                 }
                 System.out.print("searching...");
+                long start = System.currentTimeMillis();
                 puzzleSolve(holder.size(), solution, u);
+                long end = System.currentTimeMillis();
+                System.out.println("time taken = " + (end - start));
                 if (everyPossibleOutcome.size() > 0) {
                     System.out.println("found!");
                     Iterator<String> it = everyPossibleOutcome.iterator();
