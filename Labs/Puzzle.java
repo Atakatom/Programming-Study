@@ -17,6 +17,7 @@ public class Puzzle {
      */
     public static void main(String[] args) {
         boolean correctInput = true;
+        // we can do it
         while (correctInput) {
             Scanner input = new Scanner(System.in);
             System.out.printf("%-25s", "Enter 1st input value: ");
