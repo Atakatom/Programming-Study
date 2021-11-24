@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Algorithms",
-        "Labs"
+        "Labs",
+        "LeetCode"
     ]
 }
