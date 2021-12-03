@@ -1,4 +1,3 @@
-package DataStructures;
 
 public class Generics {
     public static <E> void printArray(E[] arr) {

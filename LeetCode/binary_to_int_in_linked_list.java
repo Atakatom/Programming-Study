@@ -1,5 +1,3 @@
-package LeetCode;
-
 import java.util.Stack;
 // Example 1:
 

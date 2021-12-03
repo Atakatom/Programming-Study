@@ -2,7 +2,6 @@ package SortAnArray_RadixSort;
 
 class Solution {
     public int[] sortArray(int[] nums) {
-        int i;
         int min = minE(nums);
         boolean isMinMinus = min < 0;
         if (isMinMinus)

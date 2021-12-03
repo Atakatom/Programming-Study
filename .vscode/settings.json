@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Algorithms",
         "Labs",
-        "LeetCode"
+        "LeetCode",
+        "DataStructures"
     ]
 }

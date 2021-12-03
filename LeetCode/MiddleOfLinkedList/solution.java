@@ -1,4 +1,4 @@
-package LeetCode.MiddleOfLinkedList;
+package MiddleOfLinkedList;
 
 class Solution {
 
