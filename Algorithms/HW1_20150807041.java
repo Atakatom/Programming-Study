@@ -87,6 +87,9 @@ public class HW1_20150807041 {
  * 
  */
 class Sorter {
+    private Sorter() {
+    }
+
     /**
      * Sorts the array by using priorityQueue to implement minHeap structure
      * Adds the first k+1 elements of array to minHeap
@@ -273,12 +276,6 @@ class MinHeap {
                 swap(index, smallestChildIndex);
             }
             index = smallestChildIndex;
-        }
-    }
-
-    private void printHeap() {
-        for (int i = 0; i < size; i++) {
-            System.out.print(heap[i] + " ");
         }
     }
 }
