@@ -20,7 +20,7 @@ public class PowerCalculator {
 
         if (r > 0) {
             result = 1;
-            while (r-- > 0) {
+            for (int i = 0; i < r; i++) {
                 result *= n;
             }
             System.out.println(result);
