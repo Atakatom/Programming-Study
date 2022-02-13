@@ -21,7 +21,7 @@ public class BookApp {
         for (Book b : bookShelfOrderedByPages) {
             System.out.println(b);
         }
-        bookShelfOrderedByNames = new TreeSet();
+        bookShelfOrderedByNames = new TreeSet<>();
         bookShelfOrderedByNames.addAll(bookShelfOrderedByPages);
         System.out.println("\n*****Order of Books By Their Names*****\n");
         for (Book b : bookShelfOrderedByNames) {
