@@ -24,6 +24,8 @@ public class FlightTicketCost {
         System.out.print("Please enter your choice : ");
         choice = inp.nextInt();
 
+        inp.close();
+
         if (age < 0 || distance < 0 || choice > 2 || choice < 1)
             System.out.println("You have entered invalid data");
         else {
