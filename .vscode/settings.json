@@ -1,11 +1,13 @@
 {
     "java.project.sourcePaths": [
-        "Algorithms",
-        "Labs",
-        "LeetCode",
-        "DataStructures",
-        "Patika",
+        "Patika/Java102/BookSorter",
         "Patika/Java102",
-        "Patika/Java102/BookSorter"
+        "Patika",
+        "LeetCode",
+        "Labs",
+        "CodingBat/Warmup1",
+        "CodingBat/Warmup2",
+        "CodingBat/String1",
+        "CodingBat/String2"
     ]
 }
