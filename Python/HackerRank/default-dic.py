@@ -1,0 +1,13 @@
+# link of the problem https://www.hackerrank.com/challenges/defaultdict-tutorial/problem
+
+from collections import defaultdict
+
+n, m = map(int, input().split())
+d = defaultdict()
+
+for i in range(1,n+1): 
+    word = input()
+    d[word] = d[word] + ' ' + str(i) if word in d else str(i)
+
+for _ in range(m):
+    print(d[input()])
