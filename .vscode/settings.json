@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Java\\CodingBat\\Logic2"
+        "Java\\CodingBat\\Logic2",
+        "Java\\CodingBat\\Logic1"
     ]
 }
