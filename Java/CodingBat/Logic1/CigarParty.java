@@ -1,6 +1,6 @@
 // link of the problem https://codingbat.com/prob/p159531
 
-public class cigarParty{
+public class CigarParty{
     
     public boolean cigarParty(int cigars, boolean isWeekend) {
         if(isWeekend==true && cigars>=40 ){
